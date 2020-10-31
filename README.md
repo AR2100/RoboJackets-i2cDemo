@@ -5,8 +5,8 @@ This is a demo project for the LidarLite project. In this project, the master mb
 ## Installation
 
 First, navigate to you source folder. Then, clone the project:
-`git init`
-`git clone  https://github.com/AR2100/RoboJackets-i2cDemo.git`
+```git init
+git clone  https://github.com/AR2100/RoboJackets-i2cDemo.git```
 
 Now, flash the Arduino and the mbed.
 
