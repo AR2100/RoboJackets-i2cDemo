@@ -26,7 +26,9 @@ Now, flash the mbed and the Arduino.
 ```bash
 sudo chmod a+rw /dev/ttyACM0
 ```
+
     This gives you read/write access to the port the Arduino is plugged into.
+    
 6. Compile the sketch by clicking the checkmark button in the top left-hand corner.
 7. Upload the sketch by clicking the upload button in the top left-hand corner.
 8. Keep the Arduino plugged into your computer so you can access the terminal.
