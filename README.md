@@ -12,11 +12,11 @@ git clone https://github.com/AR2100/RoboJackets-i2cDemo.git
 
 Now, flash the mbed and the Arduino.
 
-** Flashing the mbed **
+**Flashing the mbed**
 1. Go to the mbed online compiler [here](https://ide.mbed.com/compiler/#nav:/;). Log in with your mbed account or create one.
 
 
-** Flashing the Arduino **
+**Flashing the Arduino**
 1. Download the Arduino IDE [here](https://www.arduino.cc/en/software).
 2. In the Arduino IDE, go to File > Open and find `src/arduino/slavei2c.ino`.
 3. Plug the Arduino Uno into your computer using a USB-A cable.
