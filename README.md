@@ -19,9 +19,8 @@ Now, flash the mbed and the Arduino.
 4. Inside the main.cpp file, paste the code from `src/mbed/main.cpp`.
 5. In the toolbar above the code, click on "Compile". The code should compile and then download as a bin file. 
 6. Plug in the mbed LPC1768 to your computer using a USB-B cord. In your file explorer, find the "MBED" device. Click on it.
-7. Inside the mbed device in your file explorer, delete existing bin files. Then, copy and paste the bin file in your Downloads folder into the "MBED" device. A light should flash rapidly as the file is downloading to the mbed.
+7. Inside the mbed device in your file explorer, delete existing bin files. Then, copy and paste the bin file from your Downloads folder into the "MBED" device. A light should flash rapidly on the mbed LPC1768 as the file is downloading to the mbed.
 8. Disconnect the mbed from your computer.
-
 
 **Flashing the Arduino**
 1. Download the Arduino IDE [here](https://www.arduino.cc/en/software).
@@ -39,4 +38,11 @@ This gives you read/write access to the port the Arduino is plugged into.
 7. Upload the sketch by clicking the upload button in the top left-hand corner.
 8. Keep the Arduino plugged into your computer so you can access the terminal.
 
+## Testing
 
+Build the circuit on a breadboard. The circuit diagram is in (circuit diagram to be added later). It is OK to use the 5V and 3.3V terminals on the Arduino to power the mbed, but you can use an external power source as well. Just be sure to connect the grounds of the Arduino and the external power supply. Personally, I use a cell phone power adapter that plugs into the wall and a USB cable that I've stripped and use the red and black wires for power. 
+
+Open up the terminal in the Arduino IDE by clicking on the square magnifying glass button in the top right-hand corner. Then, provide power to the circuit. 
+
+In the Arduino terminal, you should repeatedly see the message:
+`hi : data received!`
