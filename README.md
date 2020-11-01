@@ -4,7 +4,7 @@ This is a demo project for the LidarLite project. In this project, the master mb
 
 ## Installation
 
-First, navigate to you source folder. Then, clone the project:
+First, navigate to your source folder. Then, clone the project:
 ```bash
 git init
 git clone https://github.com/AR2100/RoboJackets-i2cDemo.git
@@ -13,7 +13,7 @@ git clone https://github.com/AR2100/RoboJackets-i2cDemo.git
 Now, flash the mbed and the Arduino.
 
 **Flashing the mbed**
-1. Go to the mbed online compiler [here](https://ide.mbed.com/compiler/#nav:/;). Log in with your mbed account or create one.
+1. Go to the mbed online compiler [here](https://ide.mbed.com/compiler/#nav:/;). Login with your mbed account or create one.
 2. On the workspace homescreen, click on "New" in the top left-hand corner. In the "Create new program" window, select the mbed LPC1768 in the "Platform" dropdown. Name the project and then click OK.
 3. Now, inside your new project, you will see a main.cpp file and a mbed library file. Click on the main.cpp file.
 4. Inside the main.cpp file, paste the code from `src/mbed/main.cpp`.
